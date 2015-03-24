@@ -1,0 +1,14 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Answer:  If a bug is found in the software it becomes possible to test older versions of the software for the same bug and if the bug didn't exist in an older version then it's possible to find which version introduced the bug.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Answer: It's possible to forget to commit and end up loosing data.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Answer: Because google docs handles individual documents and multiple documents would add complexity which Git was designed for code which often has multiple files all associated to each other.
+
+How can you use the commands git log and git diff to view the history of files?
+Answer: git log shows all of the commits with a time stamp and comments.
+git diff shows the specific changes made to a file between two different commits.
+
+
